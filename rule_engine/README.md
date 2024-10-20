@@ -4,7 +4,6 @@
 
 This project is a simple 3-tier rule engine application that determines user eligibility based on attributes like age, department, income, spend, etc. The system uses an Abstract Syntax Tree (AST) to represent conditional rules and allows for dynamic creation, combination, and modification of these rules.
 
-## Setup Instructions
 ## Features
 
 - **Rule Creation**: Create rules from strings and represent them as ASTs.
@@ -13,6 +12,8 @@ This project is a simple 3-tier rule engine application that determines user eli
 - **Dynamic Rule Modification**: Modify existing rules dynamically.
 - **Error Handling**: Handle invalid rule strings or data formats.
 - **Validations**: Validate attributes to be part of a catalog.
+
+## Setup Instructions
 
 ## Project Structure
 rule_engine/
