@@ -15,25 +15,6 @@ This project is a simple 3-tier rule engine application that determines user eli
 
 ## Setup Instructions
 
-## Project Structure
-rule_engine/
-│
-├── database/
-│   └── schema.sql
-│
-├── src/
-│   ├── __init__.py
-│   ├── node.py
-│   ├── rule_engine.py
-│   ├── main.py
-│
-├── tests/
-│   ├── __init__.py
-│   └── test_rule_engine.py
-│
-├── requirements.txt
-└── README.md
-
 ### Prerequisites
 
 - Python 3.x
@@ -67,6 +48,25 @@ rule_engine/
 ### Running Tests
 1. Run the tests:
    python -m unittest discover -s tests
+
+## Project Structure
+rule_engine/
+│
+├── database/
+│   └── schema.sql
+│
+├── src/
+│   ├── __init__.py
+│   ├── node.py
+│   ├── rule_engine.py
+│   ├── main.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_rule_engine.py
+│
+├── requirements.txt
+└── README.md
 
 ### File Descriptions
 database/schema.sql: SQL script to create the database schema.
